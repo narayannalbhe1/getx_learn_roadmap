@@ -15,6 +15,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +33,6 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             TextButton(
               onPressed: () {
-
                 Get.bottomSheet(
                   Container(
                     color: Colors.grey,
@@ -98,10 +98,18 @@ class _HomeScreenState extends State<HomeScreen> {
 
             ElevatedButton(onPressed: (){
               Get.to(LoginExGet());
-            }, child: Text('Login Page Example'))
+            }, child: Text('Login Page Example')),
+
+            ElevatedButton(onPressed: (){
+              Get.to(LoginExGet());
+            }, child: Text('Login Page Example')),
+
+
+
+
           ],
         ),
-      )
+      ),
 
     );
   }

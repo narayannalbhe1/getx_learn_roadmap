@@ -37,6 +37,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   image_picker:
   get:
+  velocity_x: ^4.0.1
+
+
 
 dev_dependencies:
   flutter_test:
