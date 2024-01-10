@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_learn_roadmap/Dummy%20Ui%20for%20Project/SubscriptionUi.dart';
 import 'package:getx_learn_roadmap/Screens/Fruit_List.dart';
 import 'package:getx_learn_roadmap/Screens/Home%20Screen/HomeScreen.dart';
 import 'package:getx_learn_roadmap/Screens/ImagePickerExample.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: SubscriptionUi(),
     );
   }
 }
